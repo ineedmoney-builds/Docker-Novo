@@ -82,8 +82,8 @@ RUN mkdir /root/novodb
 WORKDIR /root
 
 # ORIGINAL SOURCE
-#RUN git clone https://github.com/3untz/novo-electrumx.git
-RUN git clone https://github.com/expiredhotdog/novo-electrumx
+RUN git clone https://github.com/3untz/novo-electrumx.git
+#RUN git clone https://github.com/expiredhotdog/novo-electrumx
 
 WORKDIR /root/novo-electrumx
 
